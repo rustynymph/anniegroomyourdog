@@ -8,83 +8,165 @@
         <title>Annie Groom Your Dog - Denver Dog Grooming</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-hide-on-scroll ">
             <div class="container px-5">
-                <a class="navbar-brand" href="#!">Annie Groom Your Dog</a>
+                <a class="navbar-brand" href="#home">Annie Groom Your Dog</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#policies">Policies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Content-->
-        <div class="container px-4 px-lg-5">
+        <div id="home" class="container px-4 px-lg-5">
             <!-- Heading Row-->
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/hero.png" alt="..." /></div>
                 <div class="col-lg-5">
-                    <h1 class="font-weight-light">In-Home Grooming in Denver</h1>
-                    <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
-                    <a class="btn btn-primary" href="#!">Call to Action!</a>
+                    <h1 class="font-weight-light primary-text-color">In-Home Grooming in Denver</h1>
+                    <p class="primary-text-color body-font">
+                        Offering house-call grooming services in Denver's LoDo, Ballpark, Highland, and Sloan Lake neighborhoods.
+Accepting small to medium-sized dogs 35lbs and under only.<br><br>
+(720) 515-2720 (texting preferred!)<br><a href="https://www.instagram.com/anniegroomyourdog">@anniegroomyourdog</a>
+
+                    </p>
+                    <a class="btn btn-primary" target="_blank" href="tel:7205152720">New clients message me</a>
+                    <a class="btn btn-secondary" target="_blank" href="https://book.squareup.com/appointments/tsysfdodvv66w0/location/FJV6D4G8R7DXQ/services">Book appointment</a>
                 </div>
             </div>
             <!-- Call to Action-->
             <div class="card text-white bg-secondary my-5 py-4 text-center">
-                <div class="card-body"><p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p></div>
+                <div class="card-body"><p class="text-white m-0">
+                    New clients please contact me via text or email to set up your first appointment, that way I can properly book the length of time needed for your appointment and go over pricing and other information. Existing clients can use my online booking tool or reach out to me for assistance. Thank you!
+                </p></div>
             </div>
-            <!-- Content Row-->
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Bath & Basics Groom</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+
+            <div id="services" class="container-fluid">
+                <h1>Grooming Services</h1>
+
+                    <!-- Content Row-->
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="card-title">Bath & Basics Groom</h2>
+                                <img class="card-img-top" src="assets/bathandbasics.jpg" alt="Card image cap">
+                                <p class="card-text">
+                                    Includes:
+                                    Bath with shampoo and conditioning
+                                    Blow dry, brush out, & deshed
+                                    Nails, ear cleaning, teeth cleaning
+                                    Trimming only incudes eyes, paw pads, and sanitary area
+                                    Prices start at:
+                                    $60 for very short coats, smooth-coats, or hairless dogs (e.g. chihuahuah)
+                                    $70 for medium coats, double-coats (e.g. corgi, mini aussie, mini schnauzer)
+                                    $80 for long coats and/or curly coats (e.g. poodle and poodle-mixes, bichon frise, drop-coat breeds with long hair)
+                                </p>
+                            </div>
+                            <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="card-title">Tidy Up Groom</h2>
+                                <img class="card-img-top" src="assets/tidyup.jpg" alt="Card image cap">
+                                <p class="card-text">
+                                    Includes:
+                                    Bath with shampoo and conditioning
+                                    Blow dry, brush out, & deshed
+                                    Nails, ear cleaning, teeth cleaning
+                                    Trimming includes head, face and eyes, tail, feet, paw pads, and sanitary area. No overall body or leg trimming
+                                    Prices start at:
+                                    $85 for medium coats, double-coats (e.g. mini aussie, mini schnauzer, maltese)
+                                    $100 for long coats and/or curly coats (e.g. poodle and poodle-mixes, bichon frise, drop-coat breeds with long hair)
+                                </p>
+                            </div>
+                            <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="card-title">Full Groom</h2>
+                                <img class="card-img-top" src="assets/fullgroom.jpg" alt="Card image cap">
+                                <p class="card-text">
+                                    Includes:
+                                    Bath with shampoo and conditioning
+                                    Blow dry, brush out, & deshed
+                                    Nails, ear cleaning, teeth cleaning
+                                    Full haircut
+                                    Prices start at:
+                                    $100 for medium coats, double-coats (e.g. mini aussie, mini schnauzer, maltese)
+                                    $120 for long coats and/or curly coats (e.g. poodle and poodle-mixes, bichon frise, drop-coat breeds with long hair)
+                                </p>
+                            </div>
+                            <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="card-title">A-la-carte Services</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                            </div>
+                            <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Tidy Up Groom</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
-                        </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
-                    </div>
+
+                <div class="container-fluid">
+                    <h1>A-la-carte Services</h1>
                 </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">Full Groom</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-                        </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
-                    </div>
+    
+    
+                <div class="container-fluid">
+                    <h1>A-la-carte Services</h1>
                 </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h2 class="card-title">A-la-carte Services</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-                        </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
-                    </div>
+    
+                <div class="container-fluid">
+                    <h1>A-la-carte Services</h1>
                 </div>
+
             </div>
+
+            <div id="policies" class="container-fluid">
+                <h1>Policies</h1>
+            </div>
+
+            <div id="about" class="container-fluid">
+                <h1>About Me</h1>
+            </div>
+
+            <div id="contact" class="container-fluid">
+                <h1>Contact</h1>
+            </div>
+
+
         </div>
+
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Annie Groom Your Dog 2024</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
