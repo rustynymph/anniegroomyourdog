@@ -1,0 +1,96 @@
+.body {
+    color: #00627A !important;
+    font-family: "Poppins", sans-serif !important;
+    margin-top: 350px;
+}
+
+a {
+    color: #FB8FB1;
+}
+
+a:hover {
+    color: #ffc7d9;
+}
+
+.container-nopadding {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding: 0px !important;
+}
+
+.spacing {
+    height: 0px;
+}
+
+.container-margins {
+    margin-top: 20px !important;
+}
+
+.header-background {
+    background-color: #D5F4F8;
+}
+
+.header-l {
+    font-family: "Paytone One", sans-serif !important;
+}
+
+.card-title{
+    font-family: "Poppins", sans-serif !important;
+}
+
+.body-font {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.btn-primary {
+  color: #FFFBFD;
+  background-color: #00627A;
+}
+
+body {
+    background-color: #00627A;
+}
+
+.secondary-text-color {
+    color: #FFFBFD;
+}
+
+.primary-text-color {
+    color: #004F62;
+}
+
+.btn-primary {
+    background-color: #D1FF57;
+    border-color: #D1FF57;
+    color: #00627A;
+}
+
+.btn-secondary {
+    background-color: #00627A;
+    border-color: #D1FF57;
+    color: #D1FF57;    
+}
+
+.btn-primary:hover {
+    background-color: #FB8FB1;
+}
+
+.btn-secondary:hover {
+    background-color: #FB8FB1;
+}
+
+.bg-bright {
+    background-color: #FB8FB1 !important;
+}
+
+.bg-primary {
+    background-color: #00627A !important;
+}
+
+.bg-secondary {
+    background-color: #FFFBFD !important;
+}
+
+.bg-dark {
+    background-color: #004F62 !important;
+}
