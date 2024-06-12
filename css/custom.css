@@ -12,8 +12,6 @@ a:hover {
     color: #ffc7d9;
 }
 
-.service-card {
-}
 
 .container-nopadding {
     margin-top: 20px !important;
@@ -28,8 +26,12 @@ a:hover {
 .services {
     padding-top: 10px;
     padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.service-row {
+
 }
 
 .spacing {
@@ -41,7 +43,7 @@ a:hover {
 }
 
 .header-background {
-    background-color: #FB8FB1;
+    background-color: #ffc7d9;
     border-radius: 25px 25px 0px 0px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -79,6 +81,13 @@ body {
     border-color: #D1FF57;
     color: #00627A;
     box-shadow: 6px 6px #FB8FB1;
+}
+
+.service-card {
+    border-width: 1px;
+}
+
+.service-card-footer {
 }
 
 .btn-secondary {
