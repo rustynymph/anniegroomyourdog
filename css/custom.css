@@ -12,10 +12,24 @@ a:hover {
     color: #ffc7d9;
 }
 
+.service-card {
+}
+
 .container-nopadding {
     margin-top: 20px !important;
     margin-bottom: 20px !important;
     padding: 0px !important;
+}
+
+.site-section {
+    border-radius: 25px;
+}
+
+.services {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .spacing {
@@ -27,7 +41,12 @@ a:hover {
 }
 
 .header-background {
-    background-color: #D5F4F8;
+    background-color: #FB8FB1;
+    border-radius: 25px 25px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header-l {
@@ -42,10 +61,6 @@ a:hover {
     font-family: "Poppins", sans-serif !important;
 }
 
-.btn-primary {
-  color: #FFFBFD;
-  background-color: #00627A;
-}
 
 body {
     background-color: #00627A;
@@ -63,20 +78,31 @@ body {
     background-color: #D1FF57;
     border-color: #D1FF57;
     color: #00627A;
+    box-shadow: 6px 6px #FB8FB1;
 }
 
 .btn-secondary {
     background-color: #00627A;
     border-color: #D1FF57;
     color: #D1FF57;    
+    box-shadow: 6px 6px #D1FF57;
 }
 
 .btn-primary:hover {
-    background-color: #FB8FB1;
+    background-color: #D1FF57;
+    border-color: #D1FF57;
+    color: #00627A;
+    /*transform: translateX(1px);
+    transform: translateY(1px);
+    box-shadow: 5px 5px #FB8FB1;*/
+    box-shadow: 0px 0px #FB8FB1;
 }
 
 .btn-secondary:hover {
-    background-color: #FB8FB1;
+    background-color: #00627A;
+    border-color: #D1FF57;
+    color: #D1FF57;    
+    box-shadow: 0px 0px #D1FF57;
 }
 
 .bg-bright {
@@ -93,4 +119,8 @@ body {
 
 .bg-dark {
     background-color: #004F62 !important;
+}
+
+.navbar-space {
+    padding-top: 30px;
 }
