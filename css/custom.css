@@ -21,6 +21,7 @@ a:hover {
 
 .site-section {
     border-radius: 25px;
+    padding-bottom: 20px;
 }
 
 .services {
@@ -28,6 +29,7 @@ a:hover {
     padding-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
+    background-color: #ffecf2;
 }
 
 .service-row {
@@ -55,10 +57,6 @@ a:hover {
     font-family: "Paytone One", sans-serif !important;
 }
 
-.card-title{
-    font-family: "Poppins", sans-serif !important;
-}
-
 .body-font {
     font-family: "Poppins", sans-serif !important;
 }
@@ -83,11 +81,36 @@ body {
     box-shadow: 6px 6px #FB8FB1;
 }
 
+.card-title{
+    font-family: "Poppins", sans-serif !important;
+}
+
 .service-card {
     border-width: 1px;
+    /*border-color: #ffc7d9;*/
+    border-color: #c4e2e9;
+    margin-top: 10px;
+    color: #002d38;
+}
+
+.service-card-incl {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.service-card-ul {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+.service-card-desc {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .service-card-footer {
+    background-color: #ddeff4;
+    border-color: #c4e2e9;
 }
 
 .btn-secondary {
@@ -132,4 +155,8 @@ body {
 
 .navbar-space {
     padding-top: 30px;
+}
+
+p {
+    color: #002d38;
 }
